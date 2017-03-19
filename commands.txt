@@ -1,6 +1,6 @@
-./arangosh --javascript.execute setup.js
-./arangoimp --file ~/Documents/kochlore/data/institutions.csv --collection Institutions --type csv --server.database kochlore
-./arangoimp --file ~/Documents/kochlore/data/fake_payments.csv --collection Payment --type csv --server.database kochlore
+arangosh --javascript.execute setup.js
+arangoimp --file ~/Documents/kochlore/data/institutions.csv --collection Institutions --type csv --server.database kochlore
+arangoimp --file ~/Documents/kochlore/data/fake_payments.csv --collection Payment --type csv --server.database kochlore
 
 
 
